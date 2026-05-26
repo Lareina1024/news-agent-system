@@ -1,0 +1,24 @@
+# env
+.env
+venv/
+
+# database
+*.db
+*.sqlite
+
+# cache
+__pycache__/
+*.pyc
+
+# mac
+.DS_Store
+
+# logs
+*.log
+
+# crawler output
+crawler/news_db.jsonl
+
+# eval outputs
+eval/results*.jsonl
+
