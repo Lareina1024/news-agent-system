@@ -18,25 +18,10 @@
 
 # 1. 项目架构
 
-```text
-腾讯新闻
-   ↓
-新闻爬虫（crawler_tencent.py）
-   ↓
-news_db.jsonl
-   ↓
-SQLite(news.db)
-   ↓
-FastGPT Dataset API
-   ↓
-FastGPT Knowledge Base
-   ↓
-统一 AI Agent
-   ├── 新闻问答（RAG）
-   └── 数据分析（Text2SQL）
-   ↓
-Flask + ECharts Dashboard
-```
+<p align="center">
+  <img src="docs/system.png" width="900">
+</p>
+
 
 ---
 
